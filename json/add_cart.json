@@ -1,0 +1,125 @@
+{
+    "categories": [
+      {
+        "title": "CAFE PHIN",
+        "products": [
+          {
+            "name": "BẠC XỈU ĐÁ",
+            "image": "img/img_design/COFFEE/phin/bac-xiu-da.jpg",
+            "price": "30000"
+          },
+          {
+            "name": "CAFE SỮA",
+            "image": "img/img_design/COFFEE/phin/cf_sua.webp",
+            "price": "25000"
+          },
+          {
+            "name": "CAFE ĐEN",
+            "image": "img/img_design/COFFEE/phin/ca-phe-den-da.png",
+            "price": "20000"
+          },
+          {
+            "name": "CAFE MUỐI",
+            "image": "img/img_design/COFFEE/phin/cf_muoi.webp",
+            "price": "35000"
+          }
+        ]
+      },
+      {
+        "title": "CAFE MÁY",
+        "products": [
+          {
+            "name": "ESPRESSO",
+            "image": "img/img_design/COFFEE/pha_may/espresso.jpg",
+            "price": "40000"
+          },
+          {
+            "name": "CAPPUCCINO",
+            "image": "img/img_design/COFFEE/pha_may/cappu.jpg",
+            "price": "60000"
+          },
+          {
+            "name": "LATTE",
+            "image": "img/img_design/COFFEE/pha_may/latte.jpg",
+            "price": "60000"
+          },
+          {
+            "name": "MOCHA",
+            "image": "img/img_design/COFFEE/pha_may/mocha.png",
+            "price": "55000"
+          }
+        ]
+      },
+      {
+        "title": "TRÀ",
+        "products": [
+          {
+            "name": "TRÀ SEN",
+            "image": "img/img_design/COFFEE/tea/sen.webp",
+            "price": "40000"
+          },
+          {
+            "name": "TRÀ ĐÀO",
+            "image": "img/img_design/COFFEE/tea/dao.jpg",
+            "price": "40000"
+          },
+          {
+            "name": "TRÀ VẢI",
+            "image": "img/img_design/COFFEE/tea/vai.jpg",
+            "price": "40000"
+          }
+        ]
+      },
+      {
+        "title": "ĐÁ XAY",
+        "products": [
+          {
+            "name": "CAFE ĐÁ XAY",
+            "image": "img/img_design/COFFEE/da_xay/cf_dx.jpg",
+            "price": "45000"
+          },
+          {
+            "name": "CHOCO ĐÁ XAY",
+            "image": "img/img_design/COFFEE/da_xay/choco.jpg",
+            "price": "45000"
+          },
+          {
+            "name": "COOKIE ĐÁ XAY",
+            "image": "img/img_design/COFFEE/da_xay/cookie_da.jpg",
+            "price": "45000"
+          },
+          {
+            "name": "MATCHA ĐÁ XAY",
+            "image": "img/img_design/COFFEE/da_xay/matcha-da-xay.jpg",
+            "price": "45000"
+          }
+        ]
+      },
+      {
+        "title": "BÁNH NGỌT",
+        "products": [
+          {
+            "name": "TIRAMISU",
+            "image": "img/img_design/COFFEE/cake/tira.jpg",
+            "price": "25000"
+          },
+          {
+            "name": "REDVELVET",
+            "image": "img/img_design/COFFEE/cake/red.jpg",
+            "price": "25000"
+          },
+          {
+            "name": "MOUSSE CHANH DÂY",
+            "image": "img/img_design/COFFEE/cake/passion.webp",
+            "price": "25000"
+          },
+          {
+            "name": "CHOCO MANA",
+            "image": "img/img_design/COFFEE/cake/choco mana.jpg",
+            "price": "35000"
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Coffee Shop</title>
+<link rel="stylesheet" href="css/buynow.css">
+<link rel="icon" href="img/img_design/logo.png">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>    
+<!--------- CONTACT ------------->
+<link rel="stylesheet" href="css/buynow_media.css">
+<link rel="stylesheet" href="css/chatbot.css">
+     <!-- GOOGLE FONT ICON -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  
+</head>
+<body>
+    <header>
+        <div class="loading" id="loading">
+            <div class="circle-loading"></div>
+         </div>
+        <div class="wrapper">
+            <div class="wrapper_buynow">
+                <div class="text_buynow">
+                    <ul class="dynamic-txts">
+                        <li><span>Giao hàng toàn quốc</span></li>
+                        <li><span>Đặt ngay bây giờ</span></li>
+                        <li><span>Liên hệ: 0123456789</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="nav">
+                <div class="navbar">
+                    <ul>
+                        <li class="menu">
+                            <i class="fa-solid fa-bars fa-beat"></i>
+                            <p>menu</p>
+                            <div class="quick_choices">
+                                <ul>
+                                    <li><a href="index.html"><i class="fa-solid fa-house"></i></a></li>
+                                    <li><a href="buynow.html">Trang chủ</a></li>
+                                    <li>
+                                        <a href="flashsale.html">flash Sale</a>
+                                        <div class="box_icon_menu">
+                                            <span>+</span>
+                                        </div>
+                                    </li>
+                                    <li><a href="promote.html">Khuyến mãi</a></li>
+                                    <li>
+                                        <a href="products.html">Sản phẩm</a> 
+                                        <div class="box_icon_menu">
+                                            <span>+</span>
+                                        </div>
+                                    </li>
+                                    <li><a href="introduction.html">Giới thiệu</a></li>
+                                    <li>Bạn cần hỗ trợ</li>
+                                    <li>0937 722 522</li>
+                                    <li>hnt438@gmail.com</li>
+                                </ul>
+                                <div class="pseudo">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="box_logo">
+                                <a href="index.html"><img src="img/img_design/THE COFFEE SHOP.png" alt=""></a>
+                            </div>
+                        </li>
+                        <li class="box_search">
+                            <div class="search">
+                                <input type="text" placeholder="Tìm sản phẩm...">
+                                <div class="icon_search">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="account" id="fix_pos_ipse_account">
+                            <a href="login.html">
+                                <div class="box_account">
+                                    <a href="login.html"> <i class="fa-solid fa-user"></i></a>
+                                    <p>Tài khoản</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="cart">
+                            <div class="box_cart">
+                                <i class="fa-solid fa-cart-shopping fa-shake"></i>
+                                <p>Giỏ hàng</p>
+                            </div>
+                        </li>
+                        <!-- Cart -->
+                        <div class="wrapper_cart">
+                            <div class="wrap_title">
+                                <h2 class="cart-title">GIỎ HÀNG</h2>
+                            </div>
+                            <div class="cart_zone">
+                                <!-- đọc js các sản phẩm từ json ở đây nè -->
+                            </div>
+                            <div class="btn_exit">
+                                <i class='bx bx-x' id="close-cart"></i>  
+                            </div>
+                            <!---------- Total ------------>
+                            <div class="wrap_checkout">
+                                <div class="total">
+                                    <div class="total-title">Tổng:&nbsp </div>
+                                    <div class="total-price"> 0 đ</div>
+                                </div>
+                            <!---------- Buy Button ------------>
+                            <div class="btn_checkout">
+                                <button type="button" class="btn-buy">Thanh Toán</button>
+                            </div>
+                            <!---------- Cart Close ------------>
+                            </div>
+                        </div>
+                    </ul>
+                </div> 
+            </div>   
+        </div> 
+    </header>
+    <div id="b-to-top"></div>
+    <div class="boxlist">
+        <div class="list">
+            <ul id="mini">
+                <li><a href="index.html"><i class="fa-solid fa-house"></i></a></li>
+                <li><a href="buynow.html">Trang chủ</a></li>
+                <li><a href="flashsale.html">FLASH SALE</a></li>
+                <li><a href="promote.html">Khuyến mãi</a></li>
+                <li><a href="products.html">Sản phẩm</a></li>
+                <li><a href="introduction.html">Giới thiệu</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="boxItem">
+        <div class="list1">
+            <ul>
+                <li><a href="maintainPage.html">Cà phê rang xay</a></li>
+                <li><a href="maintainPage.html">Cà phê hộp</a></li>
+                <li><a href="maintainPage.html">Cà phê uống liền</a></li>
+                <li><a href="maintainPage.html">Cà phê hòa tan</a></li>
+                <li><a href="maintainPage.html">Cà phê hạt</a></li>
+            </ul>
+        </div>
+    </div>
+   
+    <div class="banner_buynow">
+        <div class="banner">
+            <input type="radio" id="btn1">
+            <input type="radio" id="btn2">
+            <img id="bannerImg" src="./img/shop_page/flash_sale/banner_2.jpg" alt="">
+            <div class="boxInput">
+                <label for="btn1" class="button1"></label>
+                <label for="btn1" class="button2"></label>
+            </div>
+        </div>
+    </div>
+    <div class="utilities">
+        <div class="box_utilities">
+            <ul>
+                <li><a href="">
+                    <img src="./img/shop_page/home/policy/policy_1.webp" alt="">
+                    <p>Giao hàng</p>
+                </a></li>
+                <li><a href="">
+                    <img src="./img/shop_page/home/policy/policy_2.webp" alt="">
+                    <p>Flash Sale</p>
+                </a></li>
+                <li><a href="">
+                    <img src="./img/shop_page/home/policy/policy_3.webp" alt="">
+                    <p>Bán chạy</p>
+                </a></li>
+                <li><a href="">
+                    <img src="./img/shop_page/home/policy/policy_4.webp" alt="">
+                    <p>Cửa hàng</p>
+                </a></li>
+                <li><a href="">
+                    <img src="./img/shop_page/home/policy/policy_5.webp" alt="">
+                    <p>Cách pha</p>
+                </a></li>
+                <li><a href="">
+                    <img src="./img/shop_page/home/policy/policy_6.webp" alt="">
+                    <p>Liên hệ</p>
+                </a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="title_sale">
+        <div class="box_title">
+            <h3>Ưu đãi của bạn</h3>
+        </div>
+    </div>
+    <div class="vouchers">
+        <div class="box_voucher">
+            <div class="voucher">
+                <div class="wrapper_voucher">
+                    <p class="text1_voucher">Voucher</p>
+                    <p class="text2_voucher">Voucher 20K áp cho đơn hàng từ 340K. Lưu/Nhập mã tại mục Thanh Toán nhé!</p>
+                    <div class="code_voucher">
+                        <input type="text" placeholder="KM20" disabled>
+                        <button>Lưu</button>
+                    </div>   
+                </div>                 
+            </div>
+            <div class="voucher">
+                <div class="wrapper_voucher">
+                    <p class="text1_voucher">Ưu đãi tại cửa hàng</p>
+                    <p class="text2_voucher">Nhận ưu đãi tại quán khi mua hàng tại website chính hãng Highlands Coffee.</p>
+                    <div class="code_voucher">
+                        <input type="text" placeholder="KM20" disabled>
+                        <button>Lưu</button>
+                    </div>   
+                </div>                 
+            </div>
+            <div class="voucher">
+                <div class="wrapper_voucher">
+                    <p class="text1_voucher">Giao hàng toàn quốc</p>
+                    <p class="text2_voucher">Đặt hàng online. Giao hàng tận nơi với phí ship chỉ từ 25K.</p>
+                    <div class="code_voucher">
+                        <input type="text" placeholder="KM20" disabled>
+                        <button>Lưu</button>
+                    </div>   
+                </div>                 
+            </div>
+            <div class="voucher">
+                <div class="wrapper_voucher">
+                    <p class="text1_voucher">Deal Hời</p>
+                    <p class="text2_voucher">Giảm giá lên đến 30% với sản phẩm cà phê rang xay, đóng lon uống liền.</p>
+                    <div class="code_voucher">
+                        <input type="text" placeholder="KM20" disabled>
+                        <button>Lưu</button>
+                    </div>   
+                </div>                 
+            </div>
+        </div>
+    </div>
+    <div class="flashSale">
+        <div class="box_timeSale">
+            <div class="sale">
+                <img src="./img/shop_page/flash_sale/icon_flash.webp" alt="">
+                <a href="">DEAL ĐANG DIỄN RA</a>
+                <span>|</span>
+                <div class="timer">
+                    <div class="days">
+                        <div class="box_days">
+                            <span>00</span>
+                        </div>
+                        <div class="wrapper_dot">
+                            <span>:</span>
+                        </div>
+                    </div>
+                    <div class="hours" >
+                        <div class="box_hours">
+                            <span>00</span>
+                        </div>
+                        <div class="wrapper_dot">
+                            <span>:</span>
+                        </div>
+                    </div>
+                    <div class="mins">
+                        <div class="box_mins">
+                            <span>00</span>
+                        </div>
+                        <div class="wrapper_dot">
+                            <span>:</span>
+                        </div>
+                    </div>
+                    <div class="secs">
+                        <div class="box_secs">
+                            <span>00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="btn_flash">Xem tất cả</button>
+        </div>
+        <!-- thêm sản phẩm bằng đọc json -->
+        <div class="box_product">
+            <div class="products" id="add1">
+            </div>
+                <div class="block_prev">
+                    <span><i class="fa-solid fa-chevron-left"></i></span>
+                </div>
+                <div class="block_next">
+                    <span><i class="fa-solid fa-chevron-left fa-rotate-180"></i></span>
+                </div>
+        </div>    
+        
+        <div class="bestSelling">
+            <div class="box_btn_selling">
+                <button id="fix_responsive">Sản phẩm bán chạy</button>
+            </div>
+        </div>  
+        <div class="box_product">
+            <div class="products" id="add2">
+                
+            </div> 
+                <div class="block_prev">
+                    <span><i class="fa-solid fa-chevron-left"></i></span>
+                </div>
+                <div class="block_next">
+                    <span><i class="fa-solid fa-chevron-left fa-rotate-180"></i></span>
+                </div> 
+        </div>  
+        <div class="view_bestSelling">
+            <div class="box_btn_view_bestSelling">
+                <button id="fix_responsive_1">Xem sản phẩm bán chạy</button>
+            </div>
+        </div>  
+        <div class="bestSelling">
+            <div class="box_btn_selling">
+                <button id="fix_responsive">Cà phê rang xay</button>
+            </div>
+        </div>  
+        <div class="box_product">
+            <div class="products" id="add3">
+                
+            </div> 
+                <div class="block_prev">
+                    <span><i class="fa-solid fa-chevron-left"></i></span>
+                </div>
+                <div class="block_next">
+                    <span><i class="fa-solid fa-chevron-left fa-rotate-180"></i></span>
+                </div> 
+        </div>   
+        <div class="view_bestSelling">
+            <div class="box_btn_view_bestSelling">
+                <button id="fix_responsive_1">Xem sản phẩm Cà phê rang xay</button>
+            </div>
+        </div>  
+        <div class="bestSelling">
+            <div class="box_btn_selling">
+                <button id="fix_responsive">Sản Phẩm Tiêu Dùng</button>
+            </div>
+        </div>  
+        <div class="box_product">
+            <div class="products" id="add4">
+            </div>
+                <div class="block_prev">
+                    <span><i class="fa-solid fa-chevron-left"></i></span>
+                </div>
+                <div class="block_next">
+                    <span><i class="fa-solid fa-chevron-left fa-rotate-180"></i></span>
+                </div> 
+        </div>  
+        <div class="view_bestSelling">
+            <div class="box_btn_view_bestSelling">
+                <button id="fix_responsive_1">Xem Sản Phẩm Tiêu Dùng</button>
+            </div>
+        </div>  
+    </div>
+    <div class="go_top">
+        <a href="#b-to-top"><i class="fa-solid fa-arrow-up"></i></a>
+   </div>
+   <section id="contact">
+    <div class="footer">
+        <div class="main">
+            <div class="col" >
+                <h4>Menu Links</h4>
+                <div>
+                    <ul>
+                        <li><a href="home.html">Quán cà phê</a></li>
+                        <li><a href="menu.html">Thực đơn</a></li>
+                        <li><a href="maintainPage_home.html">Tin tức</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col marge" >
+                <h4 class="none">-----------</h4>
+                <div>
+                    <ul>
+                        <li><a href="about_us.html">Về chúng tôi</a></li>
+                        <li><a href="maintainPage_home.html">Nghề nghiệp</a></li>
+                        <li><a href="buynow.html">Mua ngay</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col" >
+                <h4>Information</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Delivery Information</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+            </div>
+
+            <div class="col" >
+                <h4>Contact Us</h4>
+                <div class="social">
+                    <a href="#"><i class='bx bxl-facebook' ></i></a>
+                    <a href="#"><i class='bx bxl-instagram' ></i></a>
+                    <a href="#"><i class='bx bxl-twitter' ></i></a>
+                    <a href="#"><i class='bx bxl-youtube' ></i></a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+  </section>
+   <!--------- CONTACT ----------->
+   <div >
+        <button class="chatbot-toggler">
+            <span class="material-symbols-outlined">mode_comment</span>
+            <span class="material-symbols-outlined">close</span>
+        </button>
+        <div class="chatbot">
+            <header>
+                <h2>Chatbot</h2>
+                <span class="close-btn material-symbols-outlined">close</span>
+        </header>
+        <ul class="chatbox">
+            <li class="chat incoming">
+                <span class="material-symbols-outlined">smart_toy</span>
+                <p>The Coffee Shop xin chào 🙌 <br> Chúng mình giúp được gì cho bạn ạ?</p>
+            </li>
+        </ul>
+        <div class="chat-input">
+            <textarea placeholder="Enter a message...." required></textarea>
+            <span id="send-btn" class="material-symbols-outlined">send</span>
+        </div>
+   </div>
+</div>
+</body>
+<script src="./js/buynow.js"></script>
+<script src="./js/chatbot.js"></script>
+<script src="https://kit.fontawesome.com/7a975bba38.js" crossorigin="anonymous"></script>
+</html>
